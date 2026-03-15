@@ -117,18 +117,17 @@ int main (){
 
 
 
-        for (row=1; row<=4; row++){
-            
-            for(col=1; col<=4-1; col++)
-            cout<< " ";
+       
 
-            for (col=1; col<= row-1; col++)
-            cout<<"*"<<
+        for(int i=1;i<=n;i++)
+        {
+            for(int j=1;j<=n-i;j++)
+                cout<<" ";
 
+            for(int j=1;j<=i;j++)
+                cout<<"* ";
 
             cout<<endl;
         }
-    
-   
     
 }
