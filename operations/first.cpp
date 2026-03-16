@@ -40,11 +40,25 @@ int main (){
 
     //logical oprator
 
-    if(a>b && a>c){
-        cout<<"yes";
-    }
-    else{
-        cout<<"no";
+    // if(a>b && a>c){
+    //     cout<<"yes";
+    // }
+    // else{
+    //     cout<<"no";
+    // }
+
+    
+    char name;
+    cout << "enter the alphabet:";
+    cin >> name ;
+
+    if (name="a" || name ="e" || name= "i" || name ="o" || name="u"){
+
+        cout << "this is the consonent ";
+
+
+    }else{
+        cout <<"this is not consonents";
     }
 
 
