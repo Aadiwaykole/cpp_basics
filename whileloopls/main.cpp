@@ -1,15 +1,6 @@
-char name;
-    cout << "enter the alphabet:";
-    cin >> name ;
+#include <iostream>
+using namespace std;
 
-    if (name="a" || name ="e" || name= "i" || name ="o" || name="u"){
-
-        cout << "this is the consonent ";
-
-
-    }else{
-        cout <<"this is not consonents";
-
-
-        //sdfkljhg
-        //jasdklfja
+int main (){
+    
+}
