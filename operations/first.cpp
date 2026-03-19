@@ -48,18 +48,18 @@ int main (){
     // }
 
     
-    char name;
-    cout << "enter the alphabet:";
-    cin >> name ;
+    // char name;
+    // cout << "enter the alphabet:";
+    // cin >> name ;
 
-    if (name="a" || name ="e" || name= "i" || name ="o" || name="u"){
+    // if (name="a" || name ="e" || name= "i" || name ="o" || name="u"){
 
-        cout << "this is the consonent ";
+    //     cout << "this is the consonent ";
 
 
-    }else{
-        cout <<"this is not consonents";
-    }
+    // }else{
+    //     cout <<"this is not consonents";
+    // }
 
 
 }
